@@ -1,5 +1,4 @@
 import React, { Fragment } from 'react'
-import { SiCodechef, SiHackerrank } from 'react-icons/si';
 
 function Resume() {
   return (
@@ -9,7 +8,7 @@ function Resume() {
                 
                 <div className="row">
                     <div className="col-6">
-                        <h2 className="ff-jose fw-bold ls-2">Adjigereeev Djamal</h2>
+                        <h2 className="ff-jose fw-bold ls-2">Adjigereev Djamal</h2>
                     </div>
                 </div>
                 <hr></hr>

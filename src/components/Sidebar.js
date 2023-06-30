@@ -30,11 +30,11 @@ function Sidebar() {
                                 <BsCode className='fs-5'/> <span className="ms-1 d-none d-sm-inline ">Умения </span>
                             </NavLink>
                         </li>
-                        {/* <li className="nav-item">
+                        <li className="nav-item">
                             <NavLink to="/mywork" className="nav-link align-middle px-0 text-white">
                                 <MdOutlineDashboard className='fs-5'/> <span className="ms-1 d-none d-sm-inline ">Портфолио</span>
                             </NavLink>
-                        </li> */}
+                        </li>
                         <li className="nav-item">
                             <NavLink to="/resume" className="nav-link align-middle px-0 text-white">
                                 <AiOutlineUnorderedList className='fs-5'/> <span className="ms-1 d-none d-sm-inline ">Резюме</span>
@@ -42,7 +42,10 @@ function Sidebar() {
                         </li>
                     </ul>
                     <hr/>
-                    <div className="dropdown pb-4 dropup">
+                    <div className="dropdown pb-4 dropup" style={{
+                        position: "fixed",
+                        bottom: 0
+                    }}>
                         <a href="/" className="d-flex align-items-center text-white text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
                             <MdOutlineContactPage className='fs-5'/>
                             <span className="d-none d-sm-inline mx-1">Контакты</span>
